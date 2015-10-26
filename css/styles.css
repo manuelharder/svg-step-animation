@@ -1,0 +1,90 @@
+html {
+     height:100%
+}
+body {
+	font-family:Georgia, serif;
+	font-size:15px;
+	color:#111;
+	line-height:140%;
+	min-height:100%;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	overflow-x:hidden;
+}
+
+
+
+.circle-move-container {
+    margin:300px;
+}
+
+.circle {
+    background: rgba(0, 0, 0, 0) url("../img/circle.svg") no-repeat scroll center center;
+    height: 242px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 242px;
+    display:table;
+}
+
+
+.circle.no-inner-white .svg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 21;
+}
+.circle * {
+    color: #fff;
+}
+.circle .inner {
+    display: table-cell;
+    height: 100%;
+    padding: 16px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 22;
+}
+
+.centered-content * {
+    text-align: center;
+}
+
+.circle p {
+    font-family: "latoblack","Verdana",sans-serif;
+    font-size: 1.875rem;
+    line-height: 1.1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.circle p span::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -72px;
+    position: absolute;
+    width: 144px;
+}
+.circle p span {
+    display: block;
+    font-family: "roboto_slabregular","Georgia",serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+    position: relative;
+}
+
+
+
+
+
+
+
